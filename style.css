@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+.container{
+    width: 500px; height: 550px;
+    min-width: 500px; min-height: 500px;
+    background-color: navy;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: ridge; border-width: 8px;
+    background-image: linear-gradient(to right, #8B008B, #4B0082, navy);
+    border-color: goldenrod;
+    border-radius: 20px;
+}
+.me{
+    border-radius: 50%;
+    border: solid 4px goldenrod;
+    width: 150px; height: 150px;
+    margin: auto; display: block; margin-top: 20px;
+}
+ul{
+    list-style: none;
+}
+.item{
+    background-color: gold;
+    display: flex;
+    max-width: fit-content;
+    border-radius: 20px; padding: 15px;
+    margin-top: 20px;
+    margin-left: auto; margin-right: auto;
+    border:solid black 2px;
+    pointer-events: clicker;
+    font-family: 'Play', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
